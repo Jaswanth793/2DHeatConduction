@@ -175,9 +175,9 @@ def ADIwRlx(temp_old, temp_new):
         new_values = tdma_solve(a,b,c,d)
         temp_new[i, 1:columns-1] = new_values
 
-# solve_and_plot(Point_Gauss_Seidel)
-# solve_and_plot(Line_Gauss_Seidel)
-# solve_and_plot(ADI)
-# solve_and_plot(PSOR)
-# solve_and_plot(LSOR)
+solve_and_plot(Point_Gauss_Seidel)
+solve_and_plot(Line_Gauss_Seidel)
+solve_and_plot(ADI)
+solve_and_plot(PSOR)
+solve_and_plot(LSOR)
 solve_and_plot(ADIwRlx)
